@@ -10,26 +10,30 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
-      <h1>🥐 Contact us</h1>
+      <h1 class="m-2">🥐 Contact us</h1>
+      <br />
       <p>
         To contact croissant.com, please email us at
-        <a href="mailto:info@croissant.com">info@croissant.com</a>
+        <span class="contact-email">
+          <a href="mailto:info@croissant.com" class="contact-link"
+            >info@croissant.com</a
+          >
+        </span>
       </p>
-      <div class="row">
-        <div class="col-4">
-          <a href="/">Home page</a>
+      <br />
+      <footer>
+        <div class="d-flex justify-content-evenly page-reference-links">
+          <a href="index.html">Home page</a>
+
+          <a href="photo.html">Photo</a>
+
+          <a href="contact.html">Contact</a>
         </div>
-        <div class="col-4">
-          <a href="/photo.html">Photo</a>
-        </div>
-        <div class="col-4">
-          <a href="/contact.html">Contact</a>
-        </div>
-      </div>
+      </footer>
     </div>
   </body>
 </html>
